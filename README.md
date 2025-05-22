@@ -16,8 +16,8 @@ To write a C Program to perform the basic left shift operation for 44 integer nu
 int main() {
     int a = 44;
     int b = 3;
-    int result = a << b;
-    printf("Result after left shifting %d by %d times is: %d\n", a, b, result);
+    int rsult = a << b;
+    printf("Result after left shifting %d by %d times is: %d\n", a, b, rsult);
     return 0;
 }
 
