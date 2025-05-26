@@ -160,7 +160,7 @@ int main() {
         }
     }
 
-    printf("Number of spaces: %d\n", count);
+    printf("Number of words: %d\n", count+1);
     
     return 0;
 }
@@ -168,7 +168,7 @@ int main() {
 ```
 
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/0e11a354-d45f-4263-8c47-8227bd5fc687)
+![image](https://github.com/user-attachments/assets/ac9264bb-f6ad-41a8-a2e2-f9b0ba692474)
 
 
 ## RESULT
