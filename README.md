@@ -212,7 +212,7 @@ int main() {
     // Step 4: Read the second string (no spaces allowed)
     getchar();  // to consume the newline character left by the previous scanf
     printf("Enter the second string: ");
-    scanf("%s", c2);
+    scanf("%[^\n]", c2);
 
     // Step 5: Start comparing characters
     while(c1[i] != '\0' && c2[i] != '\0') {
@@ -239,7 +239,7 @@ int main() {
 
 
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/327b122e-1d43-4e9a-92c5-521fddfce703)
+![image](https://github.com/user-attachments/assets/fe4e934b-896b-4178-aef0-0033ac470efe)
 
 
 ## RESULT
